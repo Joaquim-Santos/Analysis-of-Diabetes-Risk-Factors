@@ -1,3 +1,11 @@
+Execução do projeto:
+
+Instalar todas as dependências do Python listadas no requirements.txt.
+Utilizar Jupyter Notebook ou semelhante, para execução dos arquivos contidos no diretório de notebooks. Esses contém o passo a passo de toda a solução, para uma experiência mais interativa.
+Será necessário ter definida uma instância do MinIO, tendo sua conexão configurada nos pontos do código (notebooks e DAGs). Recomenda-se o uso em docker, com mapeamento de volumes para o diretório datalake.
+Será necessário ter definida uma instância do Airflow, a fim de executar as DAGs do diretório airflow, as quais automatizaram a execução de todo pipeline para geração da solução. Além disso, deve-se definir as variáveis de ambiente na instância do airflow, que são usadas no código das DAGs. Recomenda-se o uso em docker, com mapeamento de volumes para o diretório airflow/dags.
+
+
 1.	Entendimento do negócio
 
 O problema ser resolvido se encontra no domínio de saúde, com foco no diagnóstico da doença diabetes. O objetivo consiste em, a partir de características de uma pessoa, como comportamentos de risco e cuidados relacionados à saúde, além de condições crônicas de saúde, detectar quais possuem a doença em questão. Além disso, busca-se determinar quais os principais fatores de risco para diabetes e pré-diabetes.
