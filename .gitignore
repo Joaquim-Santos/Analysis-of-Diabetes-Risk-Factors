@@ -2,6 +2,6 @@ venv/
 
 *.pyc
 __pycache__/
-.idea/
+datalake/.idea/
 
-.minio.sys/
+datalake/.minio.sys/
