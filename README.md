@@ -22,14 +22,15 @@ Dado o contexto, busca-se gerar uma solução baseada em dados que permita antec
 Nesse projeto, cobrindo todas as etapas de um projeto real de Data Science, é possível contribuir para resolver o problema de como fazer uso dos dados para auxiliar órgãos de saúde, respondendo às questões:
 
 •	Quais fatores de risco são mais preditivos de risco de diabetes?
+
 •	Com base nos dados analisados, é possível fornecer previsões precisas de se um indivíduo possui diabetes?
+
 •	Podemos usar um subconjunto dos fatores de risco para prever com precisão se um indivíduo tem diabetes?
 
 Busca-se fornecer a solução para consumo através de Dashboards e uma API, para que os Órgãos responsáveis possam verificar se um indivíduo possui o risco de diabetes, com base em atributos como hábitos de cuidado com a saúde, status socioeconômico e condições de saúde. Além disso, poderá ser visualizada a relação dessas características com a ocorrência da doença, por meio de gráficos dinâmicos.
 
 3. Solução Proposta
 
-Para resolver esse problema foi construído uma solução completa para armazenamento, gestão e automatização de fluxos de dados utilizando tecnologias como Apache Airflow, Docker e Minio, além de explorar uma suíte poderosa de tecnologias para trabalhar com Análise de Dados e Machine Learning, tais como: Pandas, Scikit-learn, Pycaret,
-SweetViz, Streamlit e Dash.
+Para resolver esse problema foi construído uma solução completa para armazenamento, gestão e automatização de fluxos de dados utilizando tecnologias como Apache Airflow, Docker e Minio, além de explorar uma suíte poderosa de tecnologias para trabalhar com Análise de Dados e Machine Learning, tais como: Pandas, Scikit-learn, Pycaret, SweetViz, Streamlit e Dash.
 
 Através desse projeto foi possível praticar e implementar conceitos importantes da Ciência e Engenharia de Dados e propor uma solução para um problema de alta imortância para Órgãos de Saúde, a fim de prover melhores tratamentos de saúde para a população, por meio da Análise de Dados.
