@@ -1,0 +1,8 @@
+apache-airflow
+minio
+matplotlib
+imbalanced-learn
+pandas
+sklearn
+seaborn
+fastparquet
